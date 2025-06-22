@@ -7,7 +7,7 @@ from streamlit_javascript import st_javascript
 from datetime import datetime
 from main import get_area_code, get_weather_api, get_geo_from_ip
 
-st.title("Prediksi Cuaca berdasarkan Lokasi")
+st.title("Prakiraan Cuaca Interaktif")
 
 # === Ambil Lokasi Browser atau fallback ke IP ===
 geo = st_javascript("""
